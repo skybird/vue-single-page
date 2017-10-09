@@ -1,0 +1,15 @@
+@import "base/min";
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: px2rem(100);
+  background-color: #f4f4f4;
+  div {
+    position: relative;
+    border-top: 1px solid #ddd;
+  }
+}

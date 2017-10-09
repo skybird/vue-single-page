@@ -1,0 +1,12 @@
+@import "base/min";
+
+.index{
+  position: relative;
+  .center {
+    display: flex;
+    margin-top: px2rem(20);
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+}

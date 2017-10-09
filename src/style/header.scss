@@ -1,0 +1,19 @@
+@import "base/min";
+
+.header {
+  position: relative;
+  top:0;
+  width: px2rem(750);
+  height:px2rem(100);
+  text-align: center;
+  box-sizing: border-box;
+  line-height: px2rem(100);
+  background-color: $bColor;
+  .title {
+    p {
+      color: #fff;
+      text-align: center;
+      font-size: px2rem(32);
+    }
+  }
+}
